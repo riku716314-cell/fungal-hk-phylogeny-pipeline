@@ -1,0 +1,35 @@
+# 取得した配列データ (アクセッション番号から再取得できるため追跡しない)
+*.fasta
+*.fa
+*.faa
+!example/*.txt
+
+# 解析の中間・出力ファイル
+*.tblout
+*.domtblout
+*.contree
+*.treefile
+*.iqtree
+*.mldist
+*.splits.nex
+*.ckp.gz
+*.bionj
+*.log
+smart_results/
+*.svg
+
+# Pfam データベース
+Pfam-A.hmm*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

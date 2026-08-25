@@ -1,0 +1,20 @@
+# グループ判定の基準となるアンカー配列
+#
+# 先行研究で Group が確定している配列のみを記載すること。
+# アンカーが誤っていると伝播先もすべて誤るため、査読済み文献を典拠とする。
+#
+# 下記は Jacob et al. (2014) MicrobiologyOpen 3(5):668-687
+# doi:10.1002/mbo3.197 の Fig. 3 に基づく記載例。
+# sequence_id は自分の系統樹中のラベルに合わせて書き換えて使う。
+#
+sequence_id	group
+PoryHK1	I
+PoryHK2	III
+PoryHK3	X
+PoryHK4	VIII
+PoryHK5	V
+PoryHK6	VI
+PoryHK7	IX
+PoryHK8	XI
+PoryHK9	XI
+PoryHK10	XI

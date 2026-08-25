@@ -1,0 +1,23 @@
+# Magnaporthe (Pyricularia) oryzae 70-15 のヒスチジンキナーゼ 10 件
+#
+# Jacob et al. (2014) MicrobiologyOpen 3(5):668-687, doi:10.1002/mbo3.197
+# の Table 1 に記載された MGG 番号と、NCBI の locus_tag を照合して確定したもの。
+#
+# 配列そのものは含めず、アクセッション番号のみを配布する。
+# 取得は scripts/fetch_ncbi_sequences.py で行う:
+#
+#   python scripts/fetch_ncbi_sequences.py \
+#       --acc-list example/accessions_moryzae_hk.txt \
+#       --out example/moryzae_hk.fasta
+#
+# accession   locus_tag    Jacob 2014 の遺伝子名
+EHA45897.1  # MGG_12530   MoHik3p
+EHA54823.1  # MGG_11174   MoHik1p
+EHA56793.1  # MGG_06696   MoHik6p
+EHA55611.1  # MGG_12377   MoHik7p
+EHA56736.1  # MGG_11882   MoHik5p
+EHA55738.1  # MGG_07312   MoSln1p
+EHA54460.1  # MGG_01342   MoHik2p
+EHA54322.1  # MGG_01227   MoHik8p
+EHA53305.1  # MGG_13891   MoHik4p
+EHA46367.1  # MGG_02665   MoHik9p
